@@ -335,6 +335,7 @@
               asset.tokenId = signature.tokenId;
               asset.fees = [];
               if (that.nft.form.royalties) {
+                console.log('user**',that.user)
                 asset.fees.push({
                   recipient: that.user.coinbase,
                   value: that.nft.form.royalties,

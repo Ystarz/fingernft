@@ -1,6 +1,5 @@
 // File: contracts\libs\ERC20\IERC20.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
 
@@ -84,7 +83,6 @@ interface IERC20 {
 
 // File: contracts\libs\ERC20\extensions\IERC20Metadata.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 /**
  * @dev Interface for the optional metadata functions from the ERC20 standard.
@@ -110,7 +108,6 @@ interface IERC20Metadata is IERC20 {
 
 // File: contracts\libs\utils\Context.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
 
@@ -136,9 +133,7 @@ abstract contract Context {
 
 // File: contracts\libs\ERC20\ERC20.sol
 
-// SPDX-License-Identifier: MIT
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 /**
  * @dev Implementation of the {IERC20} interface.
@@ -490,7 +485,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 // File: contracts\libs\ERC20\extensions\ERC20Burnable.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 /**
  * @dev Extension of {ERC20} that allows token holders to destroy both their own
@@ -530,7 +524,6 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 // File: contracts\libs\access\Ownable.sol
 
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 abstract contract Ownable is Context {
     address private _owner;

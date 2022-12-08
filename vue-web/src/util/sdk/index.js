@@ -20,6 +20,8 @@ export default {
 
     if (contract.error) return contract;
     try {
+      console.log('contract**',contract)
+      console.log('asset**',asset)
       return await contract.mint(
         asset.tokenId,
         asset.signature.v,

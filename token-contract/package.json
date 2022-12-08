@@ -7,12 +7,14 @@
     "test": "test"
   },
   "scripts": {
+    "compile": "set https_proxy=http://127.0.0.1:7890 & truffle compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "solc": "^0.8.0",
+    "truffle-flattener": "^1.6.0",
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }

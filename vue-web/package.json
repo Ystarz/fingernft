@@ -50,7 +50,7 @@
     "element-theme-chalk": "^2.15.1",
     "ethereumjs-abi": "^0.6.8",
     "lint-staged": "9.5.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^4.8.3",
     "prettier": "1.19.1",
     "sass": "^1.32.11",
     "sass-loader": "^10.1.1",

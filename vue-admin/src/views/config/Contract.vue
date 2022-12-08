@@ -367,6 +367,7 @@
         if (!util_web3.checkNetwork()) return;
         this.editData2 = JSON.parse(JSON.stringify(this.showData2));
         this.editData = JSON.parse(JSON.stringify(this.showData));
+        console.log(this.editData2)
 
         let args = [];
         const minerAddress = util_web3.ethersAddress(this.editData2.minerKey);
